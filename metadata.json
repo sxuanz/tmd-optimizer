@@ -1,0 +1,5 @@
+{
+  "name": "Copy of TMD Optimizer Pro",
+  "description": "A high-performance engineering tool for optimizing Tuned Mass Damper (TMD) parameters for damped primary systems. Calculates optimal frequency tuning and damping ratios while visualizing vibration reduction and performance across mass ratios.",
+  "requestFramePermissions": []
+}

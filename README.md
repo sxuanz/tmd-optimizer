@@ -1,11 +1,29 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# TMD Optimizer Pro
 
-  <h1>Built with AI Studio</h2>
+一个高性能的工程仿真工具，用于优化阻尼主系统的调谐质量阻尼器 (TMD) 参数。
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 如何运行
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### 方法 A: 使用 Python (推荐)
+1. 确保已安装 [Node.js](https://nodejs.org/)。
+2. 运行脚本：
+   ```bash
+   python main.py
+   ```
 
-</div>
+### 方法 B: 使用 npm (开发者模式)
+1. 安装依赖：
+   ```bash
+   npm install
+   ```
+2. 启动程序：
+   ```bash
+   npm run dev
+   ```
+
+## 主要功能
+- **实时优化**：基于主系统阻尼自动寻找最优 γ (频率比) 和 ζ₂ (TMD阻尼比)。
+- **敏感性分析**：可选显示调谐偏差和阻尼偏差对振幅的影响。
+- **三轴动态图表**：在质量比 (μ) 变化时，同步观察振幅抑制效果、最优频率比及最优阻尼比的演变趋势。
+- **工业级UI**：基于 React 19 和 Tailwind CSS 构建，响应式设计。
